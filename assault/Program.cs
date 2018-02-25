@@ -13,7 +13,6 @@ using System.Threading;
  * Offsets retrieved using Cheat Engine and subtracting the dynamic address from the local player
  * ReadProcessMemory / WriteProcessMemory library was not written by me, I just modified it
  * This is used for hacking on AssaultCube as an educational source, Please support the game by donating as it is actually good and the developers are friendly and kind!
- * I forgot to exclude FASM
  * Vector2, Vector3, Vector4 and the viewmatrix and other things included in my source are there because I was intending on making an ESP and aimbot but I didn't have time.
 */
 
