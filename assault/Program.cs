@@ -34,7 +34,7 @@ namespace assault_
                     Thread.Sleep(3000); // wait 3 seconds
                     try
                     {
-                        IntPtr handle = Memory.OpenProcess(process.Id); // open handle to the game
+                        IntPtr handle = Memory.OpenProcess(process.Id); // open handle to the game, this cannot be used for advanced anticheats as they strip our handle from all permissions.
                         Console.WriteLine("Attached: 0x" + handle); // tell user we are in!
                         if (handle != IntPtr.Zero) // handle is not = zero
                             success = true; // set bool to true if we attached!
